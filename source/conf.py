@@ -2,30 +2,20 @@
 
 # -- 项目信息 --
 
-project = 'Create GitHub Pages Demo'
-copyright = '2020, Anne Gentle'
-author = 'Anne Gentle'
-
-# The short X.Y version
-version = ''
-# The full version, including alpha/beta/rc tags
-release = '1.0'
+project = '使用 Sphinx发布 GitHub Pages '
+copyright = '2021, llango'
+author = '罗从良'
+version = '0.1'
+release = '0. 1'
 
 
-# -- 一般设置 --------------------------------------------------
+# -- 一般设置 --
 
-# If your documentation needs a minimal Sphinx version, state it here.
-#
-# needs_sphinx = '1.0'
-
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
 extensions = [
     'sphinx.ext.githubpages',
 ]
 
-# Add any paths that contain templates here, relative to this directory.
+# 模版路径
 templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
@@ -53,11 +43,9 @@ exclude_patterns = []
 pygments_style = None
 
 
-# -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
+# 设置主题 
+# pip install shaphinx
 html_theme = 'shaphinx'
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -80,13 +68,6 @@ html_theme = 'shaphinx'
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
-
-# -- Options for HTMLHelp output ---------------------------------------------
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = 'DevNetCreateDemodoc'
-
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -112,8 +93,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DevNetCreateDemo.tex', 'DevNet Create Demo Documentation',
-     'Anne Gentle', 'manual'),
+    (master_doc, 'shaphinx.tex', '使用 Sphinx发布 GitHub Pages 文档',
+     'llango', 'manual'),
 ]
 
 
@@ -122,26 +103,16 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'devnetcreatedemo', 'DevNet Create Demo Documentation',
+    (master_doc, 'shaphix', '使用 Sphinx发布 GitHub Pages 文档',
      [author], 1)
 ]
 
-
-# -- Options for Texinfo output ----------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'DevNetCreateDemo', 'DevNet Create Demo Documentation',
-     author, 'DevNetCreateDemo', 'For DevNet Create 2019, this demonstrated building using GitHub Pages with Sphinx.',
-     'Miscellaneous'),
-]
 
 
 # -- Options for Epub output -------------------------------------------------
 
 # Bibliographic Dublin Core info.
+
 epub_title = project
 
 # The unique identifier of the text. This can be a ISBN number

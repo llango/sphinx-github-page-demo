@@ -1,23 +1,17 @@
-.. DevNet Create Demo documentation master file, created by
-   sphinx-quickstart on Mon Apr 22 15:22:24 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to the DevNet Create Demo!
+欢迎使用Sphinx Github Page Demo
 ==================================
 
-   This demo is for the 2019 DevNet Create talk, "Make an Instant Web Site with WebHooks." 
-   To read more about how this demo is put together, refer to Yes You Can Use GitHub Pages with Python Sphinx_. 
-   
-   You can read more about building with GitHub Pages, treating docs as code, and
-   static site generators on the `Docs Like Code web site <https://docslikecode.com>`_.
+   先克隆下来，git clone https://github.com/llango/sphinx-github-page-demo.git,
+   将rst文档放在source。
+   make html
+   cp -a _build/html/. ./docs
 
-Indices and tables
+   其中你可以使用sphinx创建的文档，如果要使用shaphinx主题，可以修改conf.py 里面html_theme 的值。
+   然后创建docs，这个是便于github pages 选择这个目录操作。
+   在docs目录创建一个.nojekyll文件。
+
+
+其他
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-.. _Yes You Can Use GitHub Pages with Python Sphinx: https://www.docslikecode.com/articles/github-pages-python-sphinx/
- 
+   暂无

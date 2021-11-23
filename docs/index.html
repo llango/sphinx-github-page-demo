@@ -5,7 +5,7 @@
 <link rel="index" title="索引" href="genindex.html" /><link rel="search" title="搜索" href="search.html" />
 
     <meta name="generator" content="sphinx-4.0.1, shaphinx 2021.02.28.beta28"/>
-        <title>首页 - Create GitHub Pages Demo 1.0 documentation</title>
+        <title>首页 - 使用 Sphinx发布 GitHub Pages 0. 1 documentation</title>
       <link rel="stylesheet" href="_static/styles/shaphinx.css?digest=6e6f4d9656b564517c21705a735f6bacdf854240">
     <link rel="stylesheet" href="_static/pygments.css">
     <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="_static/pygments_dark.css">
@@ -87,7 +87,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">Create GitHub Pages Demo 1.0 documentation</div></a>
+      <a href="#"><div class="brand">使用 Sphinx发布 GitHub Pages  0. 1 documentation</div></a>
     </div>
     <div class="header-right">
       <label class="toc-overlay-icon toc-header-icon" for="__toc">
@@ -101,7 +101,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
   
   
-  <span class="sidebar-brand-text">Create GitHub Pages Demo 1.0 documentation</span>
+  <span class="sidebar-brand-text">使用 Sphinx发布 GitHub Pages  0. 1 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="search.html">
   <input class="sidebar-search" placeholder=搜索 name="q">
@@ -121,22 +121,23 @@
         <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
-        <section id="welcome-to-the-devnet-create-demo">
-<h1>Welcome to the DevNet Create Demo!<a class="headerlink" href="#welcome-to-the-devnet-create-demo" title="Permalink to this headline">¶</a></h1>
+        <section id="sphinx-github-page-demo">
+<h1>欢迎使用Sphinx Github Page Demo<a class="headerlink" href="#sphinx-github-page-demo" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div><p>This demo is for the 2019 DevNet Create talk, “Make an Instant Web Site with WebHooks.”
-To read more about how this demo is put together, refer to Yes You Can Use GitHub Pages with Python <a href="#id1"><span class="problematic" id="id2">Sphinx_</span></a>.</p>
-<p>You can read more about building with GitHub Pages, treating docs as code, and
-static site generators on the <a class="reference external" href="https://docslikecode.com">Docs Like Code web site</a>.</p>
+<div><p>先克隆下来，git clone <a class="reference external" href="https://github.com/llango/sphinx-github-page-demo.git">https://github.com/llango/sphinx-github-page-demo.git</a>,
+将rst文档放在source。
+make html
+cp -a _build/html/. ./docs</p>
+<p>其中你可以使用sphinx创建的文档，如果要使用shaphinx主题，可以修改conf.py 里面html_theme 的值。
+然后创建docs，这个是便于github pages 选择这个目录操作。
+在docs目录创建一个.nojekyll文件。</p>
 </div></blockquote>
 </section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
+<section id="id1">
+<h1>其他<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>暂无</p>
+</div></blockquote>
 </section>
 
       </article>
@@ -148,7 +149,7 @@ static site generators on the <a class="reference external" href="https://docsli
         </div>
 
         <div class="related-information">
-              版权 &#169; 2020, Anne Gentle
+              版权 &#169; 2021, llango
             |
             使用 <a href="https://www.sphinx-doc.org/">Sphinx</a>构建 以及调用
               
@@ -175,8 +176,8 @@ static site generators on the <a class="reference external" href="https://docsli
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Welcome to the DevNet Create Demo!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#">欢迎使用Sphinx Github Page Demo</a></li>
+<li><a class="reference internal" href="#id1">其他</a></li>
 </ul>
 
           </div>
